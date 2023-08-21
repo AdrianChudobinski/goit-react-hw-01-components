@@ -1,0 +1,46 @@
+.profile {
+  display: flex;
+  justify-content: center;
+  background-color: #c5c392ff;
+  padding-block: 50px;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  box-shadow: 8px -9px 39px 3px rgba(66, 68, 90, 1);
+  background-color: white;
+  border-radius: 10px;
+}
+
+.name {
+  margin-block: 10px;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.subtext {
+  margin-block: 7px;
+  color: grey;
+}
+
+.stats {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  gap: 20px;
+}
+
+.social {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.statName {
+  font-size: 18px;
+  font-weight: 500;
+  padding-bottom: 10px;
+}

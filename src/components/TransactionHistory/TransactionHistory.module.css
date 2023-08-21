@@ -1,0 +1,31 @@
+.transactionCard {
+  display: flex;
+  justify-content: center;
+  padding-block: 50px;
+  background-color: #dd614aff;
+}
+
+.transactionHistory {
+  background-color: white;
+  padding: 20px;
+  border: 1px solid black;
+  width: 500px;
+}
+
+.row {
+  font-size: 20px;
+}
+
+.type {
+  border-bottom: 1px solid grey;
+  border-right: 1px solid grey;
+}
+
+.amount {
+  border-bottom: 1px solid grey;
+  border-right: 1px solid grey;
+}
+
+.currency {
+  border-bottom: 1px solid grey;
+}
